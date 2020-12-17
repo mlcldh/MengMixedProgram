@@ -1,0 +1,11 @@
+//
+//  module.swift
+//  MengMixedProgram
+//
+//  Created by menglingchao on 2020/12/16.
+//
+
+module TestModulemap [system] {
+    header "LCBoxView.h"
+    export *
+}

@@ -1,0 +1,23 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios,			'8.0'
+#inhibit_all_warnings!
+
+target:'MengMixedProgram'
+
+pod 'Masonry', '1.1.0', :modular_headers => true
+pod 'SnapKit','4.2.0'
+
+MLCKitCommit = '3fe5931'
+pod 'MLCKit/Macro', :git => 'https://github.com/mlcldh/MLCKit.git', :commit => MLCKitCommit, :modular_headers => true
+pod 'MLCKit/Category', :git => 'https://github.com/mlcldh/MLCKit.git', :commit => MLCKitCommit, :modular_headers => true
+pod 'MLCKit/Utility', :git => 'https://github.com/mlcldh/MLCKit.git', :commit => MLCKitCommit, :modular_headers => true
+pod 'MLCKit/Photos', :git => 'https://github.com/mlcldh/MLCKit.git', :commit => MLCKitCommit, :modular_headers => true
+
+LCSKitCommit = 'cb9987d'
+#pod 'LCSKit/Cache', :git => 'https://github.com/mlcldh/LCSKit.git', :commit => LCSKitCommit
+pod 'LCSKit/Category', :git => 'https://github.com/mlcldh/LCSKit.git', :commit => LCSKitCommit
+pod 'LCSKit/Constant', :git => 'https://github.com/mlcldh/LCSKit.git', :commit => LCSKitCommit
+#pod 'LCSKit/LocalFolder', :git => 'https://github.com/mlcldh/LCSKit.git', :commit => LCSKitCommit
+pod 'LCSKit/UI', :git => 'https://github.com/mlcldh/LCSKit.git', :commit => LCSKitCommit
+
+pod 'HeheKit', :path => '../../'#, :modular_headers => true

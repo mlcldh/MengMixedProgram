@@ -1,0 +1,97 @@
+PODS:
+  - HeheKit (0.0.1):
+    - HeheKit/One (= 0.0.1)
+    - HeheKit/Three (= 0.0.1)
+    - HeheKit/Two (= 0.0.1)
+    - HeheKit/UI (= 0.0.1)
+  - HeheKit/One (0.0.1)
+  - HeheKit/Three (0.0.1)
+  - HeheKit/Two (0.0.1)
+  - HeheKit/UI (0.0.1):
+    - LCSKit/UI
+    - Masonry
+    - MLCKit
+    - SnapKit
+  - LCSKit/Category (0.0.1)
+  - LCSKit/Constant (0.0.1)
+  - LCSKit/UI (0.0.1):
+    - SnapKit
+  - Masonry (1.1.0)
+  - MLCKit (0.0.3):
+    - MLCKit/Cache (= 0.0.3)
+    - MLCKit/Category (= 0.0.3)
+    - MLCKit/Color (= 0.0.3)
+    - MLCKit/Document (= 0.0.3)
+    - MLCKit/Font (= 0.0.3)
+    - MLCKit/LocalFolder (= 0.0.3)
+    - MLCKit/Location (= 0.0.3)
+    - MLCKit/Macro (= 0.0.3)
+    - MLCKit/Photos (= 0.0.3)
+    - MLCKit/Proxy (= 0.0.3)
+    - MLCKit/UI (= 0.0.3)
+    - MLCKit/Utility (= 0.0.3)
+  - MLCKit/Cache (0.0.3):
+    - YYCache
+  - MLCKit/Category (0.0.3)
+  - MLCKit/Color (0.0.3)
+  - MLCKit/Document (0.0.3)
+  - MLCKit/Font (0.0.3)
+  - MLCKit/LocalFolder (0.0.3)
+  - MLCKit/Location (0.0.3)
+  - MLCKit/Macro (0.0.3)
+  - MLCKit/Photos (0.0.3):
+    - MLCKit/Utility
+  - MLCKit/Proxy (0.0.3)
+  - MLCKit/UI (0.0.3):
+    - Masonry
+  - MLCKit/Utility (0.0.3)
+  - SnapKit (4.2.0)
+  - YYCache (1.0.4)
+
+DEPENDENCIES:
+  - HeheKit (from `../../`)
+  - LCSKit/Category (from `https://github.com/mlcldh/LCSKit.git`, commit `cb9987d`)
+  - LCSKit/Constant (from `https://github.com/mlcldh/LCSKit.git`, commit `cb9987d`)
+  - LCSKit/UI (from `https://github.com/mlcldh/LCSKit.git`, commit `cb9987d`)
+  - Masonry (= 1.1.0)
+  - MLCKit/Category (from `https://github.com/mlcldh/MLCKit.git`, commit `3fe5931`)
+  - MLCKit/Macro (from `https://github.com/mlcldh/MLCKit.git`, commit `3fe5931`)
+  - MLCKit/Photos (from `https://github.com/mlcldh/MLCKit.git`, commit `3fe5931`)
+  - MLCKit/Utility (from `https://github.com/mlcldh/MLCKit.git`, commit `3fe5931`)
+  - SnapKit (= 4.2.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Masonry
+    - SnapKit
+    - YYCache
+
+EXTERNAL SOURCES:
+  HeheKit:
+    :path: "../../"
+  LCSKit:
+    :commit: cb9987d
+    :git: https://github.com/mlcldh/LCSKit.git
+  MLCKit:
+    :commit: 3fe5931
+    :git: https://github.com/mlcldh/MLCKit.git
+
+CHECKOUT OPTIONS:
+  LCSKit:
+    :commit: cb9987d
+    :git: https://github.com/mlcldh/LCSKit.git
+  MLCKit:
+    :commit: 3fe5931
+    :git: https://github.com/mlcldh/MLCKit.git
+
+SPEC CHECKSUMS:
+  HeheKit: e8ec1284022b156bacec7b6ee917d6dbf47a295f
+  LCSKit: 84ab5c754ff50e57be68da6b125dd6cdb8903b23
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MLCKit: 213826928bd4dfd0ccc2165e01b29af20bf9b128
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+
+PODFILE CHECKSUM: 10d3ad6156e492b4e8311bd074f109c302dfff0b
+
+COCOAPODS: 1.9.3
